@@ -1,0 +1,34 @@
+:root {
+  --primary: #1888ff;
+}
+
+.btn {
+  padding: 8px 20px;
+  margin-top: 2px;
+  border-radius: 25px;
+  outline: none;
+  border: none;
+  font-size: 18px;
+  color: black ;
+  cursor: pointer;
+  background: radial-gradient(
+    64.18% 64.18% at 71.16% 35.69%,
+    #def9fa 0.89%,
+    #bef3f5 17.23%,
+    #9dedf0 42.04%,
+    #7de7eb 55.12%,
+    #5ce1e6 71.54%,
+    #33bbcf 100%
+  );
+  position: relative;
+}
+
+.btn:hover {
+  padding: 6px 18px;
+  transition: all 0.3s ease-out;
+  background-color: transparent;
+  color: black;
+  border-radius: 4px;
+  border: 2px solid var(--primary);
+  transition: all 0.3s ease-out;
+}

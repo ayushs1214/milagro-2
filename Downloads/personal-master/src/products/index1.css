@@ -1,0 +1,199 @@
+
+
+@media only screen and (max-width: 464px) {
+  table {
+    border: 2px solid white;
+    width: 320px;
+    height: 180px;
+      color: white;
+      border-collapse: collapse;
+  }
+  
+  th {
+    border-bottom: 1px solid white;
+    border: 3px solid white;
+    padding: 10px;
+    color: white;
+    font-size: large;
+  }
+  th1 {
+    /* border-bottom: 1px solid white; */
+    border: 2px solid white;
+    padding: 10px;
+    color: white;
+    /* font-size: large; */
+  }
+  td {
+    text-align: center;
+    border: 2px solid white;
+    padding: 10px;
+  }
+  .text{
+      background: radial-gradient(
+          64.18% 64.18% at 71.16% 35.69%,
+          #def9fa 0.89%,
+          #bef3f5 17.23%,
+          #9dedf0 42.04%,
+          #7de7eb 55.12%,
+          #5ce1e6 71.54%,
+          #33bbcf 100%
+        );
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        text-fill-color: transparent;
+  }
+  
+}
+
+@media only screen and (max-width: 800px) {
+  table {
+    border: 2px solid white;
+    width: 600px;
+    height: 180px;
+      color: white;
+      border-collapse: collapse;
+  }
+  
+  th {
+    border-bottom: 1px solid white;
+    border: 3px solid white;
+    padding: 10px;
+    color: white;
+    font-size: large;
+  }
+  
+  td {
+    text-align: center;
+    border: 2px solid white;
+    padding: 10px;
+  }
+  .text{
+      background: radial-gradient(
+          64.18% 64.18% at 71.16% 35.69%,
+          #def9fa 0.89%,
+          #bef3f5 17.23%,
+          #9dedf0 42.04%,
+          #7de7eb 55.12%,
+          #5ce1e6 71.54%,
+          #33bbcf 100%
+        );
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        text-fill-color: transparent;
+  }
+  
+}
+
+@media only screen and (max-width: 1024px) {
+  table {
+    border: 2px solid white;
+    width: 800px;
+    height: 180px;
+      color: white;
+      border-collapse: collapse;
+  }
+  
+  
+  th {
+    border-bottom: 1px solid white;
+    border: 3px solid white;
+    padding: 10px;
+    color: white;
+    font-size: large;
+  }
+  
+  td {
+    text-align: center;
+    border: 2px solid white;
+    padding: 10px;
+  }
+  .text{
+      background: radial-gradient(
+          64.18% 64.18% at 71.16% 35.69%,
+          #def9fa 0.89%,
+          #bef3f5 17.23%,
+          #9dedf0 42.04%,
+          #7de7eb 55.12%,
+          #5ce1e6 71.54%,
+          #33bbcf 100%
+        );
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        text-fill-color: transparent;
+  }
+  
+}
+
+@media only screen and (max-width: 4000px) {
+  table {
+    border: 2px solid white;
+    width: 900px;
+    height: 180px;
+      color: white;
+      border-collapse: collapse;
+  }
+  
+  th {
+    border-bottom: 1px solid white;
+    border: 3px solid white;
+    padding: 10px;
+    color: white;
+    font-size: large;
+  }
+  
+  td {
+    text-align: center;
+    border: 2px solid white;
+    padding: 10px;
+  }
+  .text{
+          background: radial-gradient(
+          64.18% 64.18% at 71.16% 35.69%,
+          #def9fa 0.89%,
+          #bef3f5 17.23%,
+          #9dedf0 42.04%,
+          #7de7eb 55.12%,
+          #5ce1e6 71.54%,
+          #33bbcf 100%
+        );
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        text-fill-color: transparent;
+  }
+  .ps{
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: justify;
+  }
+}
+
+.ps{
+  padding-left: 40px;
+  padding-right: 40px;
+  text-align: justify;
+}
+.psl{
+  padding-left: 40px;
+  padding-right: 40px;
+  list-style: none;
+}
+.pscontainer{
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   padding-left: 80px;
+   padding-right: 80px;
+}
+@keyframes slideInDown {
+  0% {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
