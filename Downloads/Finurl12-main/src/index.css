@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "roboto", sans-serif;
+}
+/* .ETableCellText {
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,0,0,1) 0%, rgba(1,19,39,1) 100%, rgba(1,34,71,1) 100%, rgba(0,212,255,1) 100%, rgba(1,7,18,1) 100%, rgba(1,36,73,1) 100%, rgba(1,57,95,1) 100%, rgba(1,102,141,1) 100%);
+  color: white !important;
+  font-size: 16px !important;
+}
+.ETableCellVal {
+  text-align: right !important;
+  font-size: 18px !important;
+}
+.App {
+  justify-content: center;
+  display: flex;
+  width: 100%;
+}
+.CalApp{
+  width: 50%;
+  border: 2px #CCC solid;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 10px;
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,0,0,1) 0%, rgba(1,19,39,1) 100%, rgba(1,34,71,1) 100%, rgba(0,212,255,1) 100%, rgba(1,7,18,1) 100%, rgba(1,36,73,1) 100%, rgba(1,57,95,1) 100%, rgba(1,102,141,1) 100%);
+}
+.CalHeading{
+  text-align: center;
+  color: whitesmoke;
+} */

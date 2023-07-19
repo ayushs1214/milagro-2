@@ -1,0 +1,61 @@
+.ETableCellText {
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,0,0,1) 0%, rgba(1,19,39,1) 100%, rgba(1,34,71,1) 100%, rgba(0,212,255,1) 100%, rgba(1,7,18,1) 100%, rgba(1,36,73,1) 100%, rgba(1,57,95,1) 100%, rgba(1,102,141,1) 100%);
+    color: white !important;
+    font-size: 16px !important;
+  }
+  .ETableCellVal {
+    text-align: right !important;
+    font-size: 18px !important;
+    color: white;
+  }
+  .App {
+    justify-content: center;
+    display: flex;
+    width: 100%;
+  }
+  .CalApp{
+    width: 60%;
+    border: 1px #CCC solid;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 10px;
+    padding-top: 20px;
+    /* background: linear-gradient(
+    -168.39deg,
+    #ffffff -278.56%,
+    #6d6d6d -78.47%,
+    #11101d 91.61%
+  ); */
+  }
+  .CalHeading{
+    color: whitesmoke;
+    float: left;
+  }
+  .App{
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,0,0,1) 0%, rgba(1,19,39,1) 100%, rgba(1,34,71,1) 100%, rgba(0,212,255,1) 100%, rgba(1,7,18,1) 100%, rgba(1,36,73,1) 100%, rgba(1,57,95,1) 100%, rgba(1,102,141,1) 100%);
+  }
+  .top-btn-position {
+    position: fixed;
+    bottom: 15px;
+    right: 20px;
+  }
+  
+  .top-btn-style {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: 2px solid #333;
+    background-color: #fff;
+    color: #333;
+    cursor: pointer;
+  }
+  
+  .top-btn-style:hover {
+    animation: none;
+    background-color: #333;
+    color: #fff;
+    border: 2px solid #fff;
+  }
+  .meet{
+    padding-top: 2.5rem;
+  }

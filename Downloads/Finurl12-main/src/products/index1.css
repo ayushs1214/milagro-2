@@ -1,0 +1,239 @@
+@media only screen and (max-width: 464px) {
+
+  table {
+    border: 2px solid white;
+    /* width: full; */
+    height: full;
+      color: white;
+      /* border-collapse: collapse; */
+      /* font-size: 18px; */
+      word-wrap: break-word;
+  }                               
+  
+  table th {
+    color: white;
+    /* width: 70px; */
+    font-size: 20px;
+    word-wrap: break-word;
+  }
+ 
+  table td {
+    word-wrap: break-word;
+    font-size: 15px;
+    width: 70px;
+  }
+  .psloan{
+      background: radial-gradient(
+          64.18% 64.18% at 71.16% 35.69%,
+          #def9fa 0.89%,
+          #bef3f5 17.23%,
+          #9dedf0 42.04%,
+          #7de7eb 55.12%,
+          #5ce1e6 71.54%,
+          #33bbcf 100%
+        );
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        font-size: 1.5rem;
+  }
+  .ps{
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .pslist{
+    padding-right:5px;
+    padding-left: 5px;
+  }
+  .psl{
+    padding-right:5px;
+    padding-left: 5px;
+  }
+  
+  .pscontainer{
+    padding-left: 20px;
+    padding-right: 20px;}
+  
+}
+
+@media only screen and (max-width: 800px) {
+  table {
+    border: 2px solid white;
+    width: 600px;
+    height: 180px;
+      color: white;
+      border-collapse: collapse;
+  }
+  
+  th {
+    border-bottom: 1px solid white;
+    border: 3px solid white;
+    padding: 10px;
+    color: white;
+    font-size: large;
+  }
+  
+  td {
+    text-align: center;
+    border: 2px solid white;
+    padding: 10px;
+  }
+  .psloan{
+      background: radial-gradient(
+          64.18% 64.18% at 71.16% 35.69%,
+          #def9fa 0.89%,
+          #bef3f5 17.23%,
+          #9dedf0 42.04%,
+          #7de7eb 55.12%,
+          #5ce1e6 71.54%,
+          #33bbcf 100%
+        );
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        font-size: 2rem;
+  }
+  .ps{
+    padding-left: 10px;
+    padding-right: 10px;
+    /* text-align: justify; */
+  }
+  .pslist{
+    padding-right:15px;
+    padding-left: 15px;
+    /* max-width: 560px; */
+  }
+  
+  .pscontainer{
+    padding-left: 15px;
+    padding-right: 15px;}
+  
+}
+
+@media only screen and (max-width: 1024px) {
+  table {
+    border: 2px solid white;
+    width: 800px;
+    height: 180px;
+      color: white;
+      border-collapse: collapse;
+  }
+  
+  
+  th {
+    border-bottom: 1px solid white;
+    border: 3px solid white;
+    padding: 10px;
+    color: white;
+    font-size: large;
+  }
+  
+  td {
+    text-align: center;
+    border: 2px solid white;
+    padding: 10px;
+  }
+  .psloan{
+    background: radial-gradient(
+        64.18% 64.18% at 71.16% 35.69%,
+        #def9fa 0.89%,
+        #bef3f5 17.23%,
+        #9dedf0 42.04%,
+        #7de7eb 55.12%,
+        #5ce1e6 71.54%,
+        #33bbcf 100%
+      );
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      font-size: 2rem;
+}
+.ps{
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.pslist{
+  padding-right:38px;
+  padding-left: 15px;
+}
+
+.pscontainer{
+  padding-left: 15px;
+  padding-right: 15px;}
+  
+}
+
+@media only screen and (min-width: 1024px) {
+  table {
+    border: 2px solid white;
+    width: 900px;
+    height: 180px;
+      color: white;
+      border-collapse: collapse;
+  }
+  
+  th {
+    border-bottom: 1px solid white;
+    border: 3px solid white;
+    padding: 10px;
+    color: white;
+    font-size: large;
+  }
+  
+  td {
+    text-align: center;
+    border: 2px solid white;
+    padding: 10px;
+  }
+  .psloan{
+    background: radial-gradient(
+        64.18% 64.18% at 71.16% 35.69%,
+        #def9fa 0.89%,
+        #bef3f5 17.23%,
+        #9dedf0 42.04%,
+        #7de7eb 55.12%,
+        #5ce1e6 71.54%,
+        #33bbcf 100%
+      );
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      font-size: 2rem;
+}
+.ps{
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: justify;
+}
+.pslist{
+  /* padding-right:px; */
+  padding-left: 20px;
+}
+.psl{
+  word-wrap: break-word;
+
+}
+.pscontainer{
+  padding-left:80px;
+  padding-right: 80px;
+}
+}
+
+.ps{
+  text-align: justify;
+  color: white;
+}
+
+.pscontainer{
+   font-family: Georgia, 'Times New Roman', Times, serif;
+}
+@keyframes slideInDown {
+  0% {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
